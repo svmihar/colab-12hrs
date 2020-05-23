@@ -56,7 +56,7 @@ def login():
 
 def main():
     logger.info('clicking connect')
-    sleepy_time = random.randint(60, 120)
+    sleepy_time = random.randint(10,20)
     logging.info(f'sleeping for {sleepy_time}  seconds')
     sleeper(sleepy_time)
     driver.find_element_by_xpath(
